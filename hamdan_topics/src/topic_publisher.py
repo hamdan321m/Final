@@ -4,7 +4,7 @@ from std_msgs.msg import Int32 # standard int
 
 # Setup: initialize node, register topic, set rate
 rospy.init_node( # initialize node
-  'topic_publisher' # node default name
+  'hamdan_publisher' # node default name
 )
 pub = rospy.Publisher( # register topic w/roscore
   'counter', # topic name
